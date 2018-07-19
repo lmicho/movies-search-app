@@ -1,0 +1,49 @@
+.app {
+  text-align: center;
+}
+
+.app-logo {
+  height: 40px;
+  margin-right:20px;
+}
+
+.app-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.app-title {
+  font-size: 1.5em;
+  margin:0;
+  padding:6px 0 0 0;
+}
+
+.search-box{
+  display:flex;
+  flex-direction: row;
+}
+
+.search-box input{
+  width: 100%;
+  font-size: 16px;
+  padding:10px;
+  border:none;
+}
+
+.search-box button{
+  font-size: 24px;
+  background:none;
+  border:none;
+}
+
+.app-search{
+  height: 25px;
+  padding-top:6px;
+}
+
+.app-search:hover, .app-search:active{
+  cursor: pointer;
+}
